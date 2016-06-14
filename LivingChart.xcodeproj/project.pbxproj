@@ -13,6 +13,8 @@
 		9D53437E1D1036E500E46BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D53437C1D1036E500E46BF8 /* Main.storyboard */; };
 		9D5343801D1036E500E46BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D53437F1D1036E500E46BF8 /* Assets.xcassets */; };
 		9D5343831D1036E500E46BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5343811D1036E500E46BF8 /* LaunchScreen.storyboard */; };
+		9D53438B1D1037A300E46BF8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D53438A1D1037A300E46BF8 /* QuartzCore.framework */; };
+		9D53438E1D10385500E46BF8 /* ChartCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D53438D1D10385500E46BF8 /* ChartCanvas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		9D53437F1D1036E500E46BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D5343821D1036E500E46BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D5343841D1036E500E46BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D53438A1D1037A300E46BF8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9D53438C1D10385500E46BF8 /* ChartCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartCanvas.h; sourceTree = "<group>"; };
+		9D53438D1D10385500E46BF8 /* ChartCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartCanvas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D53438B1D1037A300E46BF8 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,9 @@
 		9D5343671D1036E400E46BF8 = {
 			isa = PBXGroup;
 			children = (
+				9D53438C1D10385500E46BF8 /* ChartCanvas.h */,
+				9D53438D1D10385500E46BF8 /* ChartCanvas.m */,
+				9D53438A1D1037A300E46BF8 /* QuartzCore.framework */,
 				9D5343721D1036E400E46BF8 /* LivingChart */,
 				9D5343711D1036E400E46BF8 /* Products */,
 			);
@@ -152,6 +161,7 @@
 			files = (
 				9D53437B1D1036E400E46BF8 /* ViewController.m in Sources */,
 				9D5343781D1036E400E46BF8 /* AppDelegate.m in Sources */,
+				9D53438E1D10385500E46BF8 /* ChartCanvas.m in Sources */,
 				9D5343751D1036E400E46BF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
