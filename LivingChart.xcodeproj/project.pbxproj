@@ -15,6 +15,7 @@
 		9D5343831D1036E500E46BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5343811D1036E500E46BF8 /* LaunchScreen.storyboard */; };
 		9D53438B1D1037A300E46BF8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D53438A1D1037A300E46BF8 /* QuartzCore.framework */; };
 		9D53438E1D10385500E46BF8 /* ChartCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D53438D1D10385500E46BF8 /* ChartCanvas.m */; };
+		9D5343911D11998E00E46BF8 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5343901D11998E00E46BF8 /* PieChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		9D53438A1D1037A300E46BF8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9D53438C1D10385500E46BF8 /* ChartCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartCanvas.h; sourceTree = "<group>"; };
 		9D53438D1D10385500E46BF8 /* ChartCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartCanvas.m; sourceTree = "<group>"; };
+		9D53438F1D11998E00E46BF8 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
+		9D5343901D11998E00E46BF8 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		9D5343671D1036E400E46BF8 = {
 			isa = PBXGroup;
 			children = (
+				9D53438F1D11998E00E46BF8 /* PieChart.h */,
+				9D5343901D11998E00E46BF8 /* PieChart.m */,
 				9D53438C1D10385500E46BF8 /* ChartCanvas.h */,
 				9D53438D1D10385500E46BF8 /* ChartCanvas.m */,
 				9D53438A1D1037A300E46BF8 /* QuartzCore.framework */,
@@ -162,6 +167,7 @@
 				9D53437B1D1036E400E46BF8 /* ViewController.m in Sources */,
 				9D5343781D1036E400E46BF8 /* AppDelegate.m in Sources */,
 				9D53438E1D10385500E46BF8 /* ChartCanvas.m in Sources */,
+				9D5343911D11998E00E46BF8 /* PieChart.m in Sources */,
 				9D5343751D1036E400E46BF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
