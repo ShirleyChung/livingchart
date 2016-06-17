@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIkit.h>
+#import "Drawable.h"
 
-@interface PieChart : NSObject
+@interface PieChart : NSObject<Drawable>
 {
     CGRect mRect;
 }

@@ -7,6 +7,7 @@
 //
 
 #import "ChartCanvas.h"
+#import "PieChart.h"
 
 @implementation ChartCanvas
 
@@ -31,7 +32,7 @@
 
 -(void)initialize
 {
-    mPie = [[PieChart alloc] init];
+    mGraphic = [[PieChart alloc] init];
 }
 
 // Only override drawRect: if you perform custom drawing.
@@ -48,7 +49,7 @@
     
     /*Drawing Start*/
     
-    [mPie draw:context];
+    [mGraphic draw:context];
     
     CGContextMoveToPoint(context, 10, 100);
     CGContextAddLineToPoint(context, 200, 150);

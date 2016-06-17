@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PieChart.h"
+#import "Drawable.h"
 
 @interface ChartCanvas : UIView
 {
-    PieChart *mPie;
+    id<Drawable> mGraphic;
 }
 
 -(id)initWithFrame:(CGRect)frame;
